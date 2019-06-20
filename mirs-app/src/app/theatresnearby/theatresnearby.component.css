@@ -1,0 +1,28 @@
+h1{
+    text-align: center; font-size: 45px;
+    color: #d4af37;
+    text-shadow: -2px -2px 0 #2c3531, 2px -2px 0 #2c3531, -2px 2px 0 #2c3531, 2px 2px 0 #2c3531;
+}
+h2{
+    margin-left:25%;
+}
+.map {
+    height: 550px;
+    width: 70%;
+    margin: 2% 15%;
+    background-color: grey;
+}
+
+.mylocation{  
+    padding: 4px;
+    width: 35px;
+    margin-top: -70px;
+    margin-left: 60%;
+    background-color: white;
+    border-radius: 6px;
+
+     }
+     .mylocation:hover{
+      background-color: rgb(223, 219, 219);
+      cursor: pointer;
+     }  

@@ -1,0 +1,22 @@
+<div>
+  <div class="logo">
+    <a routerLink="/carousel" title="Home"><p id="logo"><img src="/src/assets/images/mirslogo.jpg"></a><br>
+  </div>
+  <form class="moviesearch">
+    <input #searchBox type="text" name="searchbarmovie" (keyup)="search(searchBox.value)" id="searchbarmovie" placeholder="Search your movies here!">
+    <ul>
+        <a routerLink="/olddetail/{{arrMovies.results[0].id}}" title={{arrMovies.results[0].title}} (click)="clearresults()">
+        <li id=a0></li></a>
+        <a routerLink="/olddetail/{{arrMovies.results[1].id}}" title={{arrMovies.results[1].title}} (click)="clearresults()">
+        <li id=a1></li></a>
+        <a routerLink="/olddetail/{{arrMovies.results[2].id}}" title={{arrMovies.results[2].title}} (click)="clearresults()">
+        <li id=a2></li></a>
+        <a routerLink="/olddetail/{{arrMovies.results[3].id}}" title={{arrMovies.results[3].title}} (click)="clearresults()">
+        <li id=a3></li></a>
+        <a routerLink="/olddetail/{{arrMovies.results[4].id}}" title={{arrMovies.results[4].title}} (click)="clearresults()">
+        <li id=a4></li></a>
+      </ul>   
+
+    <a title="Browse All" id="browse" value="Browse All">Browse All</a>
+  </form>
+  </div>

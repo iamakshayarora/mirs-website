@@ -1,0 +1,79 @@
+<app-sidebar></app-sidebar>
+<div id="carmod">
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        
+      <div class="carousel-item active">
+          <a routerLink="/detail/{{arrMovies.results[0].id}}" title={{arrMovies.results[0].title}}>
+        <img class="d-block w-100" id="m1" alt="First slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="t1">Movie 1</h5>
+        </div></a>
+      </div>
+      <div class="carousel-item">
+          <a routerLink="/detail/{{arrMovies.results[1].id}}" title={{arrMovies.results[1].title}}>
+        <img class="d-block w-100" id="m2" alt="Second slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="t2">Movie 2</h5>
+        </div></a>
+      </div>
+      <div class="carousel-item">
+          <a routerLink="/detail/{{arrMovies.results[2].id}}" title={{arrMovies.results[2].title}}>
+        <img class="d-block w-100" id="m3" alt="Third slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="t3">Movie 3</h5>
+        </div></a>
+      </div>
+      <div class="carousel-item">
+          <a routerLink="/detail/{{arrMovies.results[3].id}}" title={{arrMovies.results[3].title}}>
+        <img class="d-block w-100" id="m4" alt="Fourth slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="t4">Movie 4</h5>
+        </div></a>
+      </div>
+      <div class="carousel-item">
+          <a routerLink="/detail/{{arrMovies.results[4].id}}" title={{arrMovies.results[4].title}}>
+        <img class="d-block w-100" id="m5" alt="Fifth slide">
+        <div class="carousel-caption d-none d-md-block">
+          <h5 id="t5">Movie 5</h5>
+        </div></a>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+<!-- <div id="useless">
+  <a routerLink="/detail/{{arrMovies.results[0].id}}" title={{arrMovies.results[0].title}}><p>{{arrMovies.results[0].title}}</p></a>
+  <a routerLink="/detail/{{arrMovies.results[1].id}}" title={{arrMovies.results[1].title}}><p>{{arrMovies.results[1].title}}</p></a>
+  <a routerLink="/detail/{{arrMovies.results[2].id}}" title={{arrMovies.results[2].title}}><p>{{arrMovies.results[2].title}}</p></a>
+  <a routerLink="/detail/{{arrMovies.results[3].id}}" title={{arrMovies.results[3].title}}><p>{{arrMovies.results[3].title}}</p></a>
+  <a routerLink="/detail/{{arrMovies.results[4].id}}" title={{arrMovies.results[4].title}}><p>{{arrMovies.results[4].title}}</p></a>
+</div> -->
+
+
+<!-- <div style="text-align:center">
+
+  <ul class="heroes">
+    <li *ngFor="let hero of heroes">
+      <a routerLink="/detail/{{hero.id}}">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+      </a>
+    </li>
+  </ul>
+</div> -->

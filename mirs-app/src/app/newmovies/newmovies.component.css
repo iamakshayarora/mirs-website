@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-size: 45px;
+    margin-left: 13%;
+    color: #d4af37;
+    text-shadow: -2px -2px 0 #2c3531, 2px -2px 0 #2c3531, -2px 2px 0 #2c3531, 2px 2px 0 #2c3531;
+}
+#newmovielist{
+    width: 78%;
+    margin-left: 22%;
+}
+
+img{
+    opacity: 1;
+  display: block;
+    width: 70%;
+    border: 5px solid #2c3531;
+    opacity: 1;
+transition: .5s ease;
+
+}
+img:hover{
+    border: 5px solid white;
+}
+p:hover{
+    color: white;
+}
+p{
+    color: #2c3531;
+    font-weight: bold;
+    margin-left: -5%;
+}
+a{
+    text-decoration: none;
+}

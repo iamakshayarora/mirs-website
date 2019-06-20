@@ -1,0 +1,98 @@
+*{
+    text-align: center;
+    font-size: 20px;
+}
+#movietitle{
+    font-size: 45px;
+    margin-left: 13%;
+    color: #d4af37;
+    text-shadow: -2px -2px 0 #2c3531, 2px -2px 0 #2c3531, -2px 2px 0 #2c3531, 2px 2px 0 #2c3531;
+}
+#movierating{
+    margin-left: 50%;
+    font-size: 28px;
+}
+#rating{
+    background-color: #d4af37;
+    border-radius: 12px;
+    padding: 1%;
+
+}
+#genres{
+    margin-top: -10%;
+    margin-left: 50%;
+    position: absolute;
+    background-color: #d4af37;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#releasedate{
+    margin-left: 50%;
+    margin-top: -5%;
+    position: absolute;
+    background-color: #d4af37;
+    padding: 1%;
+    border-radius: 25px;
+}
+#cast{
+    margin-left: 50%;
+    margin-top: 0%;
+    background-color: #d4af37;
+    padding: 1%;
+    border-radius: 25px;
+    width: 45%;
+    text-align: justify;
+}
+#runtime{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -10%;   
+    background-color: #d4af37;
+    padding: 1%;
+    border-radius: 25px;
+}
+#revenue{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -5%;
+    background-color: #d4af37;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#moviedesc{
+    text-align: justify;
+    position: absolute;
+    margin-left: 50%;
+    margin-right: 4%;
+    margin-top: -28%;
+    background-color: #2c3531;
+    padding: 1%;
+    color: #d1e8e2;
+    border-radius: 25px;
+}
+
+#poster{
+    margin-left:-30%;
+}
+hr{
+    color: #d1e8e2;
+}
+img{
+    width: 70px;
+    float: right;
+    margin-right: 30%;
+}
+#moviecast0{
+    text-align: justify;
+}
+#moviecast1{
+    text-align: justify;
+}#moviecast2{
+    text-align: justify;
+}#moviecast3{
+    text-align: justify;
+}#moviecast4{
+    text-align: justify;
+}

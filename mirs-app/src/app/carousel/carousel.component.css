@@ -1,0 +1,16 @@
+#carmod{
+    margin-left: 30%;
+    margin-top: 6%;
+    margin-right: 11%;
+}
+#useless{
+    margin-left: 30%;
+    margin-top: 6%;
+}
+#useless a{
+    cursor: pointer;
+    color: black;
+}
+img{
+    height: 400px;
+}

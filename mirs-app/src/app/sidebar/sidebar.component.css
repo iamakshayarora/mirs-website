@@ -1,0 +1,29 @@
+.sid-nav {
+    width: 19%;
+    height: 85%;
+    margin-top: -8px;
+    position: absolute;
+    left: 0;
+    background-color: #2C3531;
+}
+i{
+    font-size: 30px;
+}
+.sid-nav a {
+    margin: 18% 0%;
+    padding: 7%;
+    /* border-radius: 50%; */
+    text-align: left;
+    text-decoration: none;
+    background-color: #D4AF37;
+    font-size: 21px;
+    font-weight: bold;
+    color: #2C3531;
+    display: block;
+    border-radius: 30px;
+}
+
+.sid-nav a:hover {
+    background-color: #CFB53B;
+    color: #D1E8E2;
+}

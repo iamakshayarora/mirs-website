@@ -1,0 +1,42 @@
+<app-sidebar></app-sidebar>
+<h1><div id="movietitle"></div></h1>
+<div id="movierating">Rating- <b>
+<span id="rating"></span></b></div><br>
+<div id="poster"></div>
+<div id="moviedesc"></div><br>
+<div id="genres"><b>Genres: </b>
+  <span id="moviegenre0"> </span>
+  <span id="moviegenre1"> </span>
+  <span id="moviegenre2"> </span>
+
+</div>
+<div id="releasedate"><b>Release Date: </b>
+<span id="moviereleasedate"></span>
+</div>
+<div id="runtime"><b>Runtime: </b>
+    <span id="movieruntime"></span>
+</div>
+<div id="revenue"><b>Revenue: </b>
+  <span id="movierevenue"></span>
+</div><br>
+<div id="cast"><b>Cast: </b>
+  <div id="moviecast0"></div>
+  <div id="moviecast1"></div>
+  <div id="moviecast2"></div>
+  <div id="moviecast3"></div>
+  <div id="moviecast4"></div>
+  </div><br>
+<div id="review"><b id="reviewtext">Reviews</b>
+  <div id="moviereview0"></div><br>
+  <div id="moviereview1"></div><br>
+  <div id="moviereview2"></div><br>
+  <div id="moviereview3"></div><br>
+  <div id="moviereview4"></div>
+</div><br>
+<div id="userreview">Press Enter to Submit your review!<br><br>
+  <input #reviewBox type="text" name="reviewbar" (keydown.enter)="review(reviewBox.value)" id="searchbarmovie" placeholder="Enter your review!">
+  <br><br>
+  <div id="userbox">
+  <b>Author: </b>anonymous<br>
+  <div id="inputreview"></div></div>
+</div>
